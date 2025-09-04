@@ -1,4 +1,4 @@
-angular.module('todoApp', ['ngRoute'])
+angular.module('todoApp', ['ngRoute', 'ui.utils.masks'])
   .config(function($routeProvider) {
     $routeProvider
       .when('/', {
